@@ -1,0 +1,63 @@
+.jd_layout {
+  width: 100%;
+  max-width: 640px;
+  min-width: 300px;
+  background-color: aqua;
+  margin: 0 auto;
+  height: 1000px;
+}
+.jd_header {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+.jd_header > .jd_header_box {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 640px;
+  min-width: 300px;
+  background-color: rgba(201, 21, 35, 0.85);
+}
+.jd_header > .jd_header_box > .icon_logo {
+  position: absolute;
+  width: 60px;
+  height: 36px;
+  background-position: 0 -103px;
+  top: 2px;
+  left: 10px;
+}
+.jd_header > .jd_header_box > .login {
+  font-size: 15px;
+  line-height: 36px;
+  position: absolute;
+  width: 60px;
+  height: 36px;
+  top: 1px;
+  right: 10px;
+}
+.jd_header > .jd_header_box > .form {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.jd_header > .jd_header_box > .form > input {
+  padding-left: 30px;
+  margin: 5px auto;
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+}
+.jd_header > .jd_header_box > .form > .icon_search {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-position: -60px -109px;
+  top: 10px;
+  left: 80px;
+}
