@@ -10,6 +10,7 @@
   width: 100%;
   height: 40px;
   position: fixed;
+  z-index: 999;
   left: 0px;
   top: 0px;
 }
@@ -60,4 +61,44 @@
   background-position: -60px -109px;
   top: 10px;
   left: 80px;
+}
+.jd_banner {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.jd_banner > ul:first-child {
+  width: 1000%;
+  transform: translateX(-10%);
+  -webkit-transform: -webkit-translateX(-10%);
+}
+.jd_banner > ul:first-child > li {
+  float: left;
+  width: 10%;
+}
+.jd_banner > ul:first-child > li > a {
+  width: 100%;
+  font-size: 0px;
+}
+.jd_banner > ul:first-child > li > a > img {
+  width: 100%;
+}
+.jd_banner > ul:last-child {
+  width: 144px;
+  height: 15px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -72px;
+}
+.jd_banner > ul:last-child > li {
+  margin: 0px 4px;
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}
+.jd_banner > ul:last-child > li.active {
+  background-color: #fff;
 }
