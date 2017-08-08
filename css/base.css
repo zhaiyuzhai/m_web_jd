@@ -58,3 +58,20 @@ input {
 .m_t_10 {
   margin-top: 10px;
 }
+.m_width_50 {
+  width: 50%;
+  display: block;
+}
+.m_width_50 img {
+  width: 100%;
+  display: block;
+}
+.m_border_left {
+  border-left: 1px solid #eee;
+}
+.m_border_right {
+  border-right: 1px solid #eee;
+}
+.m_border_bottom {
+  border-bottom: 1px solid #eee;
+}

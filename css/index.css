@@ -2,9 +2,9 @@
   width: 100%;
   max-width: 640px;
   min-width: 300px;
-  background-color: aqua;
+  background-color: lightgray;
   margin: 0 auto;
-  height: 1000px;
+  min-height: 1200px;
 }
 .jd_header {
   width: 100%;
